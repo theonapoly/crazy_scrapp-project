@@ -12,7 +12,8 @@ crypto_price_array = doc.xpath('//tbody/tr/td[5]').map do |price|
 end.take(20)
 
 crypto_array = crypto_name_array.zip(crypto_price_array).map do |name, price| # Zip = combiner les deux tableaux
-    { name: name, price: price }.values.join(" ")
+    { "#{name}": "#{price}" }
 end
 
 puts crypto_array
+
