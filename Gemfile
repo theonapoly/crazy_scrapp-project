@@ -16,4 +16,4 @@ gem 'json' # bibliothèque qui sert à manipuler les données JSON (JavaScript O
 
 gem 'http' # Bibliothèque qui permet de faire des requêtes HTTP. Permet de communiquer avec des serveurs web, de récupérer les données et les traiter, et de construire des API web.
 
-gem 'nokogiri' 
+gem 'nokogiri' # Nokogiri est une bibliothèque de parsing XML et HTML pour Ruby. Elle permet de manipuler des documents XML et HTML en fournissant une interface facile à utiliser pour extraire et modifier les données de ces documents.
